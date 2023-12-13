@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Login</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('http://4.bp.blogspot.com/-KIi_4JQgLO8/UBuq7h_7l6I/AAAAAAAAAxw/NEN8YtCRtvI/s1600/web-page-backgrounds-2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+     
+    }
+
+    #login-container {
+      width: 400px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      background-color:rgb(255,253,208);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #3498db;
+      border-radius: 5px;
+      outline: none;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      border-color: #e74c3c;
+    }
+
+    input[type="submit"] {
+      background-color: #3498db;
+      color: #111;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #984;
+    }
+  </style>
+</head>
+<body>
+
+<div id="login-container">
+  <h2>Login</h2>
+  <form action="https://oasisinfobyte.com/">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+</body>
+</html>
